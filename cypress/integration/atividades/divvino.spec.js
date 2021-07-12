@@ -18,7 +18,7 @@ describe("divvino", () => {
         cy.get("#link-66524").click();
     });
 
-    it.only("pesquisa na barra de busca ", () => {
+    it("pesquisa na barra de busca ", () => {
         Home.acessarHome();
         Home.barraPesquisar("vinhos");
         
